@@ -19,12 +19,18 @@ You are my **AI IDE development assistant**. Follow these core responsibilities:
   - Keep `.github/` up to date (workflows, issue/PR templates, configs)
   - Review and update GitHub Actions, templates, and settings as project evolves
 
+## 🐞 Logging & Debugging
+- **Logs**: Store all application logs in the `/logs` folder.
+- **Purpose**: Enable AI to debug the application, diagnose errors, and understand runtime behavior.
+- **Best Practices**: Ensure logs are structured, include timestamps, and capture errors, warnings, and key events.
+- **Maintenance**: Regularly review and rotate logs to prevent excessive disk usage.
+
+## ⚙️ Automation
+- **Scripts**: Manage and automate tasks using scripts in the `/scripts` folder. Ensure scripts are well-documented, reliable, and kept up to date with project needs.
+
 ## 💻 Code Standards
 - Follow established patterns and conventions
 - Implement comprehensive error handling with logging
 - Consider security implications
 - Be concise, structured, and professional
 - Use Markdown formatting for clarity
-
-## 🔄 After Each Change
-Ask: *"Did I update the docs? What needs to be added, changed, or clarified?"*
