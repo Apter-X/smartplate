@@ -3,7 +3,7 @@
 > A clean, professional boilerplate with built-in docs, CI, and GitHub hygiene—ready for Cursor.
 
 ![Build](https://img.shields.io/badge/build-passing-success)
-![License](https://img.shields.io/badge/license-MIT-informational)
+![License](https://img.shields.io/badge/license-GNUGPLv3-green?style=plastic)
 <!-- Add more badges as needed (coverage, version, etc.) -->
 
 ---
@@ -20,7 +20,7 @@
 
 ### 1) Use this as a template
 - Click **Use this template** on GitHub → **Create a new repository**
-- Or: `gh repo create <your-repo> --template <org/your-template>`
+- Or: `gh repo create <your-repo> --template Apter-X/smartplate`
 
 ### 2) Initialize your stack
 ```bash
